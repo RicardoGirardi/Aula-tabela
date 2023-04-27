@@ -1,0 +1,22 @@
+div{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 10px solid green;
+}
+
+.com-border-box{
+    background-color: aquamarine;
+    /*box-sizing: border-box; */
+    box-sizing: border-box;
+
+}
+
+.sem-border-box{
+background-color: brown;
+
+}
+/* largura + padding direita + paddinge esquerda + border direita+ border esquerda = largura total do elemento ---  100+ 10+ 10+ 10+ 10= 140 e largura era pra ser 100 */  
+
+/* altura + padding cima + paddinge baixo + border cima+ border baixo = largura total do elemento ---  100+ 10+ 10+ 10+ 10= 140 e largura era pra ser 100 */ 
+/* POR ISSO É UTILIZADO BORDER BOX-SIZING: BORDER-BOX PARA MANTER OS 100PX */ 
